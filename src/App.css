@@ -1,0 +1,118 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.todo__container {
+  height: 150px;
+  width: 80%;
+  border: 1px solid rgb(197, 195, 195);
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+}
+
+.input__todo {
+  height: 40px;
+  width: 90%;
+  border: 1px solid rgb(197, 195, 195);
+  border-radius: 3px;
+  display: flex;
+  flex-direction: row;
+}
+
+.bookI {
+  height: 40px;
+  width: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1673b1;
+  color: white;
+  border-top-left-radius:3px;
+  border-bottom-left-radius:3px;
+  font-size: 20px;
+}
+
+.input__todo input {
+  width: 90%;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+.button {
+  height: 40px;
+  width: 90%;
+  margin-top: 20px;
+  border: none;
+  color: white;
+  background: #1673b1;
+  border-radius: 3px;
+  font-size: 1rem;
+}
+
+.btnDiv {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btnDiv-btn {
+  width: 25%;
+}
+
+.todo__list {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.lists {
+  height: 40px;
+  width: 100%;
+  border: 1px solid rgb(197, 195, 195);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 3px;
+}
+
+.icons__pD {
+  width: 15%;
+  display: flex;
+  justify-content: space-around;
+  height: 40px;
+  align-items: center;
+  font-size: 20px;
+}
+
+.icons__pD input {
+  height: 20px;
+  width: 20px;
+  
+}
+
+.del-btn {
+  background: #e92158;
+  width: 45%;
+}
+
+.line__throungh {
+  text-decoration: line-through;
+  color: red;
+}
